@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    
+    <title>Crie sua conta E-commerce</title>
+</head>
+<body>
+    <header>
+        <img class=" container-flex" src="./imagens/logotipo.png" alt="logotipo 'e-commerce'">
+    </header>
+
+    <section id="cadastro">
+        <div class="bordaTabela container-flex">
+            <div class="container container-flex">
+                <form>
+                    <div class="container container-flex">
+                        <h1>Criar conta</h1>
+                    </div>
+                    <div class="campoFormulario">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" placeholder="Nome completo">
+                    </div>
+                    <div class="campoFormulario">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email">
+                    </div>
+                    <div class="campoFormulario">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="telefone" placeholder="DDD + Número">
+                    </div>
+                    <div class="campoFormulario">
+                        <label for="cpf">CPF</label>
+                        <input type="text" id="cpf" name="cpf">
+                    </div>
+                    <div class="campoFormulario">
+                        <label for="endereco">Endereço</label>
+                        <input type="text" name="endereco" placeholder="Rua, n° e bairro">
+                    </div>
+                    <div class="campoFormulario">
+                        <label for="cep">CEP</label>
+                        <input type="text" id="cep" name="cep">
+                    </div>
+                    <button type="submit">Cadastrar</button>
+                    <div>
+                        <p>Ao criar uma conta, você concorda com as <a href="">condições de uso</a> da E-commerce.</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>  
+    
+    <footer>
+        <div class="container container-flex">
+            <p>2023 &copy; E-commerce - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>
